@@ -2,37 +2,54 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>briyani</title>
+	<link rel="stylesheet" type="text/css" href=".css">
+	<style>
+		body{
+			background-image:url("bg.jpeg");
+			background-size: cover;
+		}
+		div.gallery{
+			margin: 5px;
+		        border-radius: 30px;
+		        float: left;
+		}
+		.gallery img{
+		       width:85px;
+		       height:75px;
+	        }  
+	</style>
 </head>
-<body>
-	<img src="C:\FOODIE-SKCET\food\foodie.jpeg" align="centre">
-	<img src="https://raw.githubusercontent.com/RithikRaj64/Savvy_Coderz/main/biryani.jpg" align="right">
-	<h1>CHICKEN BIRYANI</h1>
+<body class="main">
+	<center><img src="logo1.png" width="125" height="75"></center>
+	<!img class="mainp" id="pc" src="chilli1.jpg">
+	<h1 class="mainh">CHICKEN BIRYANI</h1>
+	<img class="mainp" id="mob" src="chickenbiryani1.jpg">
 	<h3><u>Ingredients</u></h3>
 	<ul>
 	   <li>Chicken</li>
 	   <li>200g tomato</li>
-       <li>400g onion</li>
-       <li>Bay leaves</li>
-       <li>Cardomam</li>
-       <li>Cloves</li>
-       <li>Cinnamonstick</li>
-       <li>Staranise</li>
-       <li>Sajeera</li>
-       <li>1kg Basmathi rice</li>
-       <li>800g chicken</li>
-       <li>25g chilli powder</li>
-       <li>50g ginger garlic paste</li>
-       <li>Coriander,curry leaves chopped 75g</li>
-       <li>Oil 150ml</li>
-       <li>Garam masala 25g</li>
-       <li>Biryani masala 50g</li>
-       <li>Ghee 100g</li>
-       <li>Lemon 2 piees</li>
+           <li>400g onion</li>
+           <li>Bay leaves</li>
+           <li>Cardomam</li>
+           <li>Cloves</li>
+          <li>Cinnamonstick</li>
+          <li>Staranise</li>
+          <li>Sajeera</li>
+          <li>1kg Basmathi rice</li>
+          <li>800g chicken</li>
+          <li>25g chilli powder</li>
+          <li>50g ginger garlic paste</li>
+          <li>Coriander,curry leaves chopped 75g</li>
+          <li>Oil 150ml</li>
+          <li>Garam masala 25g</li>
+          <li>Biryani masala 50g</li>
+          <li>Ghee 100g</li>
+          <li>Lemon 2 piees</li>
 	</ul>
 	<h3><u>Calorie Chart</u></h3>
-	<table border="1" cellpadding="5">
+	<table class="nutrition"border="1" cellpadding="5">
 		<tr>
 			<th>Nutrients</th>
 			<th>Quantity</th>
@@ -93,19 +110,24 @@
 			<td>Iron</td>
 			<td>16%</td>
 		</tr>
-	</table>
-	<div class="tandoori">
-		<img src="https://raw.githubusercontent.com/RithikRaj64/Savvy_Coderz/main/chicken%20biryani/chickenbiryani1.jpg" width="200" height="200">
-		<img src="https://raw.githubusercontent.com/RithikRaj64/Savvy_Coderz/main/chicken%20biryani/chicken%20biryani2.jpg" width="200" height="200">
-		<img src="https://raw.githubusercontent.com/RithikRaj64/Savvy_Coderz/main/chicken%20biryani/chickenbiryani4.jpg
-" width="200" height="200">
-	</div>
+	</table><br><br>
+	<div class="gallery">
+		<img class="gallery img"src="chicken biryani2.jpg">
+		<img class="gallery img"src="chickenbiryani4.jpg">
+		<img class-"gallery img"src="chickenbiryani5.jpg">
+		<!img id="pcpic" class="pic" src=".jpg">
+	</div><br><br><br><br>
+	<video class="vid" width="325" height="150" controls>
+		<source src="biryani.mp4" type="video/mp4">
+	</video><br><br>
+	<div class="facts">
 	<h3>FUN FACTS</h3>
 	<ul type="circle">
 		<li>The word ‘biryani’ is derived from a Persian word, birian, which means fried before cooking.</li>
 		<li>In 1398, the conqueror of Turk Mongol, Timur brought Biryani to India.</li>
 		<li>Biryani is a symbol of a country that takes differences and divergences and then merges them into one India.</li>
 	</ul>
-	<img src="">
+	</div>
+
 </body>
 </html>
